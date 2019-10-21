@@ -1,0 +1,69 @@
+---
+title: "REPLACE ME"
+output:
+    html_document:
+    df_print: paged
+theme: sandstone
+---
+
+```{r echo=FALSE, message=FALSE, warning=FALSE}
+library(tidyverse)
+library(here)
+library(viridis)
+source(here::here("code/lib.R"))
+theme_set(theme_bw())
+
+knitr::opts_chunk$set(tidy = FALSE,
+                      fig.width = 6,
+                      fig.height = 5,
+                      echo = FALSE)
+
+```
+
+```{r read}
+dados = read_projectdata()
+```
+
+```{r}
+dados %>% 
+  group_by(SG_PARTIDO) %>% 
+  summarise(gasto = sum(VR_PAGAMENTO) / 1e3) %>% 
+  ggplot(aes(x = reorder(SG_PARTIDO, gasto), y = gasto)) + 
+  geom_point() + 
+  coord_flip() + 
+  scale_y_log10()
+```
+
+```{r}
+dados %>% 
+  group_by(NM_FORNECEDOR) %>% 
+  summarise(gasto = sum(VR_PAGAMENTO) / 1e3) %>% 
+  top_n(20, wt = gasto) %>% 
+  ggplot(aes(x = reorder(NM_FORNECEDOR, gasto), y = gasto)) + 
+  geom_point() + 
+  coord_flip()
+
+```
+
+
+```{r}
+dados %>% 
+  group_by(DS_GASTO_NIVEL1) %>% 
+  summarise(gasto = sum(VR_PAGAMENTO) / 1e3) %>% 
+  top_n(20, wt = gasto) %>% 
+  ggplot(aes(x = reorder(DS_GASTO_NIVEL1, gasto), y = gasto)) + 
+  geom_point() + 
+  coord_flip() + 
+  scale_y_log10()
+```
+
+```{r}
+dados %>% 
+  filter(SG_PARTIDO %in% c("PT", "PSDB", "PSB", "MDB")) %>% 
+  group_by(DS_GASTO_NIVEL1) %>% 
+  ggplot(aes(x = reorder(DS_GASTO_NIVEL1, VR_PAGAMENTO), y = VR_PAGAMENTO)) + 
+  geom_point() + 
+  coord_flip() + 
+  scale_y_log10()
+```
+
