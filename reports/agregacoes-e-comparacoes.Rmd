@@ -1,0 +1,122 @@
+---
+title: "REPLACE ME"
+output:
+    html_document:
+    df_print: paged
+theme: sandstone
+---
+
+```{r echo=FALSE, message=FALSE, warning=FALSE}
+library(tidyverse)
+library(here)
+library(viridis)
+library(ggchicklet)
+library(hrbrthemes)
+source(here::here("code/lib.R"))
+theme_set(theme_bw())
+
+knitr::opts_chunk$set(
+  echo = FALSE,
+  warning = FALSE,
+  message = FALSE,
+  fig.cap = '',
+  fig.align = 'center',
+  fig.width = 10,
+  fig.height = 8
+)
+```
+
+```{r read, warning=FALSE, message=FALSE}
+dados_raw = read_dados_issa2018()
+```
+
+### Removendo transferências
+
+```{r , warning=FALSE, message=FALSE}
+expressao = "TRANSFERÊNCIAS FINANCEIRAS EFETUADAS|TRANSFERÊNCIAS EFETUADAS"
+transferencias = dados_raw %>% 
+  filter(grepl(expressao, DS_GASTO)) %>% 
+  mutate(DS_GASTO_CONCAT = DS_GASTO) %>%
+  separate(
+    DS_GASTO,
+    into = c(
+      "DS_GASTO_NIVEL1",
+      "DS_GASTO_NIVEL2",
+      "DS_GASTO_NIVEL3",
+      "DS_GASTO_NIVEL4"
+    ),
+    sep = "- "
+  )
+
+dados = dados_raw %>% 
+  filter(!grepl(expressao, DS_GASTO)) %>% 
+  mutate(DS_GASTO_CONCAT = DS_GASTO) %>%
+  separate(
+    DS_GASTO,
+    into = c(
+      "DS_GASTO_NIVEL1",
+      "DS_GASTO_NIVEL2",
+      "DS_GASTO_NIVEL3",
+      "DS_GASTO_NIVEL4"
+    ),
+    sep = "- "
+  )
+```
+
+Removemos dos dados os `r NROW(transferencias)` (`r str_glue("{format(NROW(transferencias) / NROW(dados_raw) *100, digits = 2)}%")` dos) gastos cuja descrição bate com `r expressao`
+
+## Pessoas físicas com salário
+
+```{r}
+salarios
+assalariados = dados %>%
+  filter(DS_TP_FORNECEDOR == "PESSOA FÍSICA",
+         grepl("SALÁRIO", DS_GASTO_CONCAT), 
+         !grepl("ADIANTAMENTO", DS_GASTO_CONCAT)) 
+salarios = assalariados %>%
+  count(SG_PARTIDO, NM_FORNECEDOR)
+```
+
+Receberam ao menos um salário do partido em 2018
+
+```{r}
+salarios %>% 
+  count(SG_PARTIDO, sort = T) %>% 
+  ggplot()  + 
+  geom_chicklet(aes(x = reorder(SG_PARTIDO, n), y = n), fill = "#75B9BE") + 
+  coord_flip() + 
+  labs(x = "", 
+       y = "Pessoas que receberam ao menos um salário")
+```
+
+```{r}
+salarios %>% 
+  count(SG_PARTIDO, n, sort = T) %>% 
+  ggplot()  + 
+  geom_count(aes(x = reorder(SG_PARTIDO, nn, sum), y = n, size = nn), color = "#645244", alpha = .7) + 
+  coord_flip() + 
+  labs(x = "", 
+       y = "Número de salários recebido em 2018", 
+       size = "Pessoas")
+```
+
+Por exemplo, eis o que a pessoa que mais recebeu salários recebeu:
+
+```{r}
+mais_assalariado = 
+  salarios %>% 
+  top_n(2, n) %>% 
+  slice(1:2)
+
+mais_assalariado
+```
+
+```{r}
+assalariados %>% 
+  filter(NM_FORNECEDOR %in% pull(mais_assalariado, NM_FORNECEDOR)) %>% 
+  select(-starts_with("DS_GASTO_NIVEL")) %>% 
+  arrange(SG_PARTIDO)
+```
+
+
+## 
