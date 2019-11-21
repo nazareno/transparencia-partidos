@@ -1,0 +1,16 @@
+Salários
+Pessoal - 13º Salário - Mulheres  
+Pessoal - 13º Salário - Ordinárias  
+Pessoal - 13º Salário  - Despesas Eleitorais  
+Pessoal - Adiantamentos A Empregados - Adiantamentos De 13º Salário  
+Pessoal - Adiantamentos A Empregados - Adiantamentos De Férias  
+Pessoal - Adiantamentos A Empregados - Adiantamentos De Salários  
+Pessoal - Adiantamentos A Empregados - Outros Adiantamentos A Empregados  
+Pessoal - Estagiários - Despesas Eleitorais  
+Pessoal - Estagiários - Ordinárias  
+Pessoal - Férias - Mulheres  
+Pessoal - Férias - Ordinárias  
+Pessoal - Férias  - Despesas Eleitorais  
+Pessoal - Salários E Ordenados - Despesas Eleitorais  
+Pessoal - Salários E Ordenados - Mulheres  
+Pessoal - Salários E Ordenados - Ordinárias  

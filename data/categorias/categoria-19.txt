@@ -1,0 +1,15 @@
+Imóveis (água, aluguel, condomínio, luz, IPTU)
+Água E Esgoto - Despesas Eleitorais  
+Água E Esgoto - Mulheres  
+Água E Esgoto - Ordinárias  
+Aluguéis E Condomínios - Locação De Bens Imóveis - Despesas Eleitorais  
+Aluguéis E Condomínios - Locação De Bens Imóveis - Mulheres  
+Aluguéis E Condomínios - Locação De Bens Imóveis - Ordinárias  
+Aluguéis E Condomínios - Taxas De Condomínios - Despesas Eleitorais  
+Aluguéis E Condomínios - Taxas De Condomínios - Mulheres  
+Aluguéis E Condomínios - Taxas De Condomínios - Ordinárias  
+Energia Elétrica - Despesas Eleitorais  
+Energia Elétrica - Mulheres  
+Energia Elétrica - Ordinárias  
+Tributos - IPTU - Despesas Eleitorais  
+Tributos - IPTU - Ordinárias  

@@ -1,0 +1,16 @@
+Encargos trabalhistas
+Pessoal - Contribuição Sindical - Mulheres  
+Pessoal - Contribuição Sindical - Ordinárias  
+Pessoal - FGTS - Mulheres  
+Pessoal - FGTS - Ordinárias 
+Pessoal - IRRF - Mulheres  
+Pessoal - IRRF - Ordinárias  
+Pessoal - Outras Despesas Com Pessoal - Mulheres  
+Pessoal - Outras Despesas Com Pessoal - Ordinárias  
+Pessoal - PIS Sobre Folha De Pagamento - Mulheres  
+Pessoal - PIS Sobre Folha De Pagamento - Ordinárias  
+Pessoal - Previdência Social - Mulheres  
+Pessoal - Previdência Social - Ordinárias  
+Pessoal - Rescisão De Contrato De Trabalho - Mulheres  
+Pessoal - Rescisão De Contrato De Trabalho - Ordinárias  
+Pessoal - Seguro De Vida De Empregados - Ordinárias  

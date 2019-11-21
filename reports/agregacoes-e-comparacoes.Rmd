@@ -1,5 +1,5 @@
 ---
-title: "REPLACE ME"
+title: "Despesas dos Partidos em 2018"
 output:
     html_document:
     df_print: paged
@@ -12,8 +12,9 @@ library(here)
 library(viridis)
 library(ggchicklet)
 library(hrbrthemes)
+library(DT)
 source(here::here("code/lib.R"))
-theme_set(theme_bw())
+theme_set(theme_ipsum_rc())
 
 knitr::opts_chunk$set(
   echo = FALSE,
@@ -30,10 +31,9 @@ knitr::opts_chunk$set(
 dados_raw = read_dados_issa2018()
 ```
 
-### Removendo transferências
 
 ```{r , warning=FALSE, message=FALSE}
-expressao = "TRANSFERÊNCIAS FINANCEIRAS EFETUADAS|TRANSFERÊNCIAS EFETUADAS"
+expressao = "Transferências Financeiras Efetuadas|Transferências Efetuadas "
 transferencias = dados_raw %>% 
   filter(grepl(expressao, DS_GASTO)) %>% 
   mutate(DS_GASTO_CONCAT = DS_GASTO) %>%
@@ -65,14 +65,16 @@ dados = dados_raw %>%
 
 Removemos dos dados os `r NROW(transferencias)` (`r str_glue("{format(NROW(transferencias) / NROW(dados_raw) *100, digits = 2)}%")` dos) gastos cuja descrição bate com `r expressao`
 
+
 ## Pessoas físicas com salário
 
+Desconsiderando adiantamentos. 
+
 ```{r}
-salarios
 assalariados = dados %>%
   filter(DS_TP_FORNECEDOR == "PESSOA FÍSICA",
-         grepl("SALÁRIO", DS_GASTO_CONCAT), 
-         !grepl("ADIANTAMENTO", DS_GASTO_CONCAT)) 
+         categoria == "Salários", 
+         !grepl("Adiantamento", DS_GASTO_CONCAT)) 
 salarios = assalariados %>%
   count(SG_PARTIDO, NM_FORNECEDOR)
 ```
@@ -86,7 +88,9 @@ salarios %>%
   geom_chicklet(aes(x = reorder(SG_PARTIDO, n), y = n), fill = "#75B9BE") + 
   coord_flip() + 
   labs(x = "", 
-       y = "Pessoas que receberam ao menos um salário")
+       subtitle = "Pessoas que receberam ao menos um salário", 
+       title = "Assalariados por partido", 
+       y = "Pessoas físicas distintas")
 ```
 
 ```{r}
@@ -97,7 +101,9 @@ salarios %>%
   coord_flip() + 
   labs(x = "", 
        y = "Número de salários recebido em 2018", 
-       size = "Pessoas")
+       size = "Pessoas", 
+       title = "Salários por pessoa em 2018", 
+       subtitle = "Há pessoas que recebem bem mais que 12")
 ```
 
 Por exemplo, eis o que a pessoa que mais recebeu salários recebeu:
@@ -108,15 +114,66 @@ mais_assalariado =
   top_n(2, n) %>% 
   slice(1:2)
 
-mais_assalariado
+mais_assalariado %>% 
+  datatable()
 ```
+
+Detalhando: 
 
 ```{r}
 assalariados %>% 
   filter(NM_FORNECEDOR %in% pull(mais_assalariado, NM_FORNECEDOR)) %>% 
-  select(-starts_with("DS_GASTO_NIVEL")) %>% 
-  arrange(SG_PARTIDO)
+  select(-starts_with("DS_GASTO_NIVEL"), -DS_TP_FORNECEDOR, SG_PARTIDO, NM_FORNECEDOR, valor, DS_GASTO_CONCAT) %>% 
+  arrange(SG_PARTIDO) %>% 
+  datatable()
+
 ```
 
 
-## 
+## Gastos por categoria por partido
+
+```{r warning=FALSE}
+agregado = dados %>% 
+  group_by(SG_PARTIDO, categoria) %>% 
+  summarise(gasto = sum(valor)) %>% 
+  mutate(percentual = gasto/sum(gasto) * 100, 
+         total_partido_M = sum(gasto) / 1e6,
+         partido = str_glue("{first(SG_PARTIDO)} (R$ {format(total_partido_M, digits =2 )}M)")) %>% 
+  ungroup() 
+
+format_numeric_dpd <- function(x, scientific = FALSE, ...) {
+  numeric_cols <- vapply(x, is.numeric, logical(1))
+  x[numeric_cols] <- lapply(x[numeric_cols], format, scientific = scientific, ...)
+  x
+}
+
+```
+
+```{r}
+write_csv(dados, "spca2018-limpo.csv")
+write_csv(format_numeric_dpd(agregado), "spca2018-agregado.csv")
+```
+
+
+### Categorias com maior gasto
+
+Considerando os 8 maiores partidos, mostrando apenas gastos que categorizamos (há uma grande proporção de gastos em categorias que não estamos examinando). 
+
+```{r, fig.height=20}
+agregado %>% 
+  filter(categoria != "Não categorizadas", 
+         total_partido_M >= 55e6) %>% 
+  group_by(partido) %>% 
+  top_n(7, percentual) %>% 
+  ungroup() %>% 
+  ggplot(aes(x = reorder(categoria, percentual, sum), y = percentual)) + 
+  geom_chicklet(fill = "#987284") + 
+  facet_grid(reorder(partido, -gasto, sum) ~ ., scales = "free") + 
+  # scale_y_continuous(labels = scales::percent_format(accuracy = 2)) + 
+  coord_flip() + 
+  labs(x = "", 
+       y = "Percentual do total gasto na categoria", 
+       title = "Categorias com maior gasto por partido", 
+       subtitle = "Apenas os partidos com maior volume de gastos")
+```
+

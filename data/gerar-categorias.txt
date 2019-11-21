@@ -1,0 +1,1 @@
+awk -v RS= '{close("categoria-" i ".txt"); i++; print > ("categoria-" NR ".txt")}' ../categorias-issa.txt 

@@ -1,0 +1,9 @@
+Dívidas
+Assunção De Dívidas De Campanha - Dívidas De Candidatos - Despesas Eleitorais  
+Assunção De Dívidas De Campanha - Dívidas De Comitês Financeiros - Despesas Eleitorais  
+Assunção De Dívidas De Campanha - Dívidas De Diretórios Partidários - Despesas Eleitorais  
+Assunção De Obrigações - Despesas Ordinárias Realizadas Por Direção Estadual  
+Assunção De Obrigações - Despesas Ordinárias Realizadas Por Direção Municipal  
+Assunção De Obrigações - Despesas Ordinárias Realizadas Por Direção Nacional  
+Obrigações Diversas - Empréstimos Bancários A Pagar  
+Obrigações Diversas - Financiamentos A Pagar  

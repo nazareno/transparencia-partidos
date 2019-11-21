@@ -1,0 +1,393 @@
+Adesivos
+Despesas Com Publicidade Por Adesivos - Eleitorais  
+
+Aquisição e edificação de imóveis 
+Ativo Permanente - Bens Imóveis - Edificações  
+Ativo Permanente - Bens Imóveis - Instalações  
+Ativo Permanente - Bens Imóveis - Outros Bens Imóveis  
+
+Combustível
+Transportes E Viagens - Combustíveis, Óleos E Lubrificantes - Despesas Eleitorais  
+Transportes E Viagens - Combustíveis, Óleos E Lubrificantes - Mulheres  
+Transportes E Viagens - Combustíveis, Óleos E Lubrificantes - Ordinárias  
+
+Comícios, carros de som e militância de rua
+Comícios E Militância De Rua - Despesas Eleitorais  
+Despesas Com Publicidade Por Carros De Som - Eleitorais 
+
+Congressos, convenções, seminários e eventos
+Congressos - Mulheres  
+Congressos - Ordinárias  
+Convenções - Mulheres  
+Convenções Eleitorais - Despesas Eleitorais  
+Convenções Partidárias - Ordinárias  
+Despesas Com Convenções Partidárias - Eleitorais  
+Despesas Com Eventos De Promoção De Candidaturas - Eleitorais 
+Eventos Promocionais - Despesas Eleitorais  
+Eventos Promocionais - Mulheres  
+Eventos Promocionais - Ordinárias  
+Instalação De Comitês Financeiros E De Campanha - Despesas Eleitorais  
+Seminários - Mulheres  
+Seminários - Ordinárias  
+
+Consultoria jurídica - eleitoral
+Serviços Técnico-profissionais - Serviços De Consultoria Jurídica - Despesas Eleitorais  
+
+Consultoria jurídica - ordinária
+Serviços Técnico-profissionais - Serviços De Consultoria Jurídica - Mulheres  
+Serviços Técnico-profissionais - Serviços De Consultoria Jurídica - Ordinárias  
+
+Cópias e encadernações
+Cópias, Encadernações E Serviços Similares - Despesas Eleitorais  
+Cópias, Encadernações E Serviços Similares - Mulheres  
+Cópias, Encadernações E Serviços Similares - Ordinárias  
+
+Correios e cartório
+Serviços Cartorários - Despesas Eleitorais  
+Serviços Cartorários - Mulheres  
+Serviços Cartorários - Ordinárias  
+Serviços Postais - Despesas Eleitorais  
+Serviços Postais - Mulheres  
+Serviços Postais - Ordinárias  
+
+Depósitos judiciais e extrajudiciais
+Depósitos Restituíveis E Valores Vinculados - Depósitos Extrajudiciais  
+Depósitos Restituíveis E Valores Vinculados - Depósitos Judiciais  
+Recuperação De Depósitos Restituíveis E Valores Vinculados - Depósitos Extrajudiciais  
+
+Despesas com pessoal - eleitoral
+Pessoal - FGTS  - Despesas Eleitorais  
+Pessoal - IRRF - Despesas Eleitorais  
+Pessoal - Outras Despesas Com Pessoal - Despesas Eleitorais  
+Pessoal - PIS Sobre Folha De Pagamento - Despesas Eleitorais  
+Pessoal - Previdência Social  - Despesas Eleitorais  
+Pessoal - Rescisão De Contrato De Trabalho - Despesas Eleitorais  
+
+Despesas financeiras
+Despesas Financeiras - Atualização Monetária De Empréstimos  
+Despesas Financeiras - Juros E Multas  
+Despesas Financeiras - Outras Despesas Financeiras  
+Despesas Financeiras - Outras Despesas Financeiras (Aplicações Financeiras)  
+Despesas Financeiras - Outras Despesas Financeiras (Juros E Multas)  
+Despesas Financeiras - Taxas De Administração De Cartões De Crédito Ou Débito  
+Despesas Financeiras - Taxas De Administração De Financiamento Coletivo  
+
+Despesas judiciais
+Despesas Judiciais - Despesas Eleitorais  
+Despesas Judiciais - Mulheres  
+Despesas Judiciais - Ordinárias  
+
+Dívidas
+Assunção De Dívidas De Campanha - Dívidas De Candidatos - Despesas Eleitorais  
+Assunção De Dívidas De Campanha - Dívidas De Comitês Financeiros - Despesas Eleitorais  
+Assunção De Dívidas De Campanha - Dívidas De Diretórios Partidários - Despesas Eleitorais  
+Assunção De Obrigações - Despesas Ordinárias Realizadas Por Direção Estadual  
+Assunção De Obrigações - Despesas Ordinárias Realizadas Por Direção Municipal  
+Assunção De Obrigações - Despesas Ordinárias Realizadas Por Direção Nacional  
+Obrigações Diversas - Empréstimos Bancários A Pagar  
+Obrigações Diversas - Financiamentos A Pagar  
+
+Encargos trabalhistas
+Pessoal - Contribuição Sindical - Mulheres  
+Pessoal - Contribuição Sindical - Ordinárias  
+Pessoal - FGTS - Mulheres  
+Pessoal - FGTS - Ordinárias 
+Pessoal - IRRF - Mulheres  
+Pessoal - IRRF - Ordinárias  
+Pessoal - Outras Despesas Com Pessoal - Mulheres  
+Pessoal - Outras Despesas Com Pessoal - Ordinárias  
+Pessoal - PIS Sobre Folha De Pagamento - Mulheres  
+Pessoal - PIS Sobre Folha De Pagamento - Ordinárias  
+Pessoal - Previdência Social - Mulheres  
+Pessoal - Previdência Social - Ordinárias  
+Pessoal - Rescisão De Contrato De Trabalho - Mulheres  
+Pessoal - Rescisão De Contrato De Trabalho - Ordinárias  
+Pessoal - Seguro De Vida De Empregados - Ordinárias  
+
+Fretamento de aeronave
+Transportes E Viagens - Fretamento De Aeronaves - Despesas Eleitorais  
+Transportes E Viagens - Fretamento De Aeronaves - Mulheres  
+Transportes E Viagens - Fretamento De Aeronaves - Ordinárias  
+
+Fundação
+Fundação De Pesquisa Ou De Doutrinação E Educação Política - Fundação Partidária  
+
+Hospedagem
+Transportes E Viagens - Hospedagens E Estadias - Despesas Eleitorais  
+Transportes E Viagens - Hospedagens E Estadias - Mulheres  
+Transportes E Viagens - Hospedagens E Estadias - Ordinárias  
+
+Imóveis (água, aluguel, condomínio, luz, IPTU)
+Água E Esgoto - Despesas Eleitorais  
+Água E Esgoto - Mulheres  
+Água E Esgoto - Ordinárias  
+Aluguéis E Condomínios - Locação De Bens Imóveis - Despesas Eleitorais  
+Aluguéis E Condomínios - Locação De Bens Imóveis - Mulheres  
+Aluguéis E Condomínios - Locação De Bens Imóveis - Ordinárias  
+Aluguéis E Condomínios - Taxas De Condomínios - Despesas Eleitorais  
+Aluguéis E Condomínios - Taxas De Condomínios - Mulheres  
+Aluguéis E Condomínios - Taxas De Condomínios - Ordinárias  
+Energia Elétrica - Despesas Eleitorais  
+Energia Elétrica - Mulheres  
+Energia Elétrica - Ordinárias  
+Tributos - IPTU - Despesas Eleitorais  
+Tributos - IPTU - Ordinárias  
+
+Internet e telefone
+Telecomunicações E Internet - Despesas Eleitorais  
+Telecomunicações E Internet - Mulheres  
+Telecomunicações E Internet - Ordinárias  
+
+IPVA
+Tributos - IPVA - Despesas Eleitorais  
+Tributos - IPVA - Ordinárias  
+
+Lanches e refeições
+Lanches E Refeições - Despesas Eleitorais  
+Lanches E Refeições - Mulheres  
+Lanches E Refeições - Ordinárias
+
+Locação de bens móveis
+Aluguéis E Condomínios - Locação De Bens Móveis - Despesas Eleitorais  
+Aluguéis E Condomínios - Locação De Bens Móveis - Mulheres  
+Aluguéis E Condomínios - Locação De Bens Móveis - Ordinárias  
+
+Manutenções e reparos
+Manutenção, Conservação E Reparos De Bens - Cessão Mão-de-obra - Despesas Eleitorais  
+Manutenção, Conservação E Reparos De Bens - Cessão Mão-de-obra - Mulheres  
+Manutenção, Conservação E Reparos De Bens - Cessão Mão-de-obra - Ordinárias  
+Manutenção, Conservação E Reparos De Bens - Despesas Eleitorais  
+Manutenção, Conservação E Reparos De Bens - Encargos Sociais Sobre Cessão Mão-de-obra - Mulheres  
+Manutenção, Conservação E Reparos De Bens - Encargos Sociais Sobre Cessão Mão-de-obra - Ordinárias  
+Manutenção, Conservação E Reparos De Bens - Mulheres  
+Manutenção, Conservação E Reparos De Bens - Ordinárias  
+
+
+Materiais impressos e publicações
+Despesas Com Publicidade Por Materiais Impressos - Eleitorais 
+Material De Consumo - Materiais Impressos - Despesas Eleitorais  
+Material De Consumo - Materiais Impressos - Mulheres  
+Material De Consumo - Materiais Impressos - Ordinárias  
+Publicações - Despesas Eleitorais  
+Publicações - Mulheres  
+Publicações - Ordinárias  
+
+Materiais para comercialização/distribuição
+Materiais Para Comercialização / Distribuição - Despesas Eleitorais  
+Materiais Para Comercialização / Distribuição - Mulheres  
+Materiais Para Comercialização / Distribuição - Ordinárias  
+Outros Materiais Para Comercialização / Distribuição - Despesas Eleitorais  
+Outros Materiais Para Comercialização / Distribuição - Mulheres  
+Outros Materiais Para Comercialização / Distribuição - Ordinárias  
+
+Material de expediente e de consumo
+Material De Consumo - Materiais De Copa E Cozinha - Despesas Eleitorais  
+Material De Consumo - Materiais De Copa E Cozinha - Mulheres  
+Material De Consumo - Materiais De Copa E Cozinha - Ordinárias  
+Material De Consumo - Materiais De Expediente - Despesas Eleitorais  
+Material De Consumo - Materiais De Expediente - Mulheres  
+Material De Consumo - Materiais De Expediente - Ordinárias 
+Material De Consumo - Outros Materiais De Consumo - Despesas Eleitorais  
+Material De Consumo - Outros Materiais De Consumo - Mulheres  
+Material De Consumo - Outros Materiais De Consumo - Ordinárias  
+
+Mensalidades para organismos internacionais
+Despesas Gerais - Mensalidades, Anuidades E Congêneres Devidos A Organismos Partidários Internacionais - Despesas Eleitorais  
+Despesas Gerais - Mensalidades, Anuidades E Congêneres Devidos A Organismos Partidários Internacionais - Mulheres  
+Despesas Gerais - Mensalidades, Anuidades E Congêneres Devidos A Organismos Partidários Internacionais - Ordinárias  
+Despesas Gerais - Mensalidades, Anuidades E Congêneres Devidos A Organismos Partidários Internacionais - Ordinárias
+Despesas Gerais - Mensalidades, Anuidades E Congêneres Devidos A Organismos Partidários Internacionais - Despesas Eleitorais
+Despesas Gerais - Mensalidades, Anuidades E Congêneres Devidos A Organismos Partidários Internacionais - Mulheres
+
+Móveis, utensílios, máquinas e equipamentos
+Ativo Permanente - Bens Móveis - Arrendamento Mercantil - Equipamentos Audiovisuais - Am  
+Ativo Permanente - Bens Móveis - Arrendamento Mercantil - Equipamentos De Sonorização - Am  
+Ativo Permanente - Bens Móveis - Arrendamento Mercantil - Móveis E Utensílios
+Ativo Permanente - Bens Móveis - Arrendamento Mercantil - Outras Máquinas E Equipamentos - Am  
+Ativo Permanente - Bens Móveis - Equipamentos Audiovisuais  
+Ativo Permanente - Bens Móveis - Equipamentos De Sonorização  
+Ativo Permanente - Bens Móveis - Móveis E Utensílios  
+Ativo Permanente - Bens Móveis - Outras Máquinas E Equipamentos  
+Ativo Permanente - Bens Móveis - Arrendamento Mercantil - Móveis E Utensílios - Am 
+
+Multas eleitorais e ressarcimentos ao erário
+Recolhimentos Ao Erário - Despesas Com Multas Eleitorais  
+Recolhimentos Ao Erário - Ressarcimento - Irregularidades Na Aplicação De Recursos Públicos (Fefc E Fundo Partidário) 
+Recolhimentos Ao Erário - Ressarcimento - Recebimento De Recursos De Fontes Vedadas  
+Recolhimentos Ao Erário - Ressarcimento - Recebimento De Recursos De Origem Não Identificada  
+Recolhimentos Ao Erário - Ressarcimento - Sobras Do Fundo Especial De Financiamento De Campanha 
+
+Passagem aérea
+Transportes E Viagens - Passagens Aéreas - Despesas Eleitorais  
+Transportes E Viagens - Passagens Aéreas - Mulheres  
+Transportes E Viagens - Passagens Aéreas - Ordinárias  
+
+Pedágio
+Transportes E Viagens - Pedágios - Despesas Eleitorais  
+Transportes E Viagens - Pedágios - Mulheres  
+Transportes E Viagens - Pedágios - Ordinárias  
+
+Pesquisas de opinião pública
+Pesquisas E Testes De Opinião Pública - Despesas Eleitorais  
+Pesquisas E Testes De Opinião Pública - Mulheres  
+Pesquisas E Testes De Opinião Pública - Ordinárias  
+
+Plano de saúde
+Pessoal - Assistência Médica E Social - Despesas Eleitorais  
+Pessoal - Assistência Médica E Social - Mulheres  
+Pessoal - Assistência Médica E Social - Ordinárias  
+
+Rádio, TV, propaganda, redes sociais e produção audiovisual
+Despesas Com Criação E Inclusão De Páginas Na Internet Ou Redes Sociais - Eleitorais  
+Despesas Com Impulsionamento De Conteúdos De Internet Ou Redes Sociais - Eleitorais  
+Despesas Com Produção De Jingles, Vinhetas E Slogans - Eleitorais  
+Outras Despesas Com Propaganda Doutrinária E Política - Despesas Eleitorais  
+Outras Despesas Com Propaganda Doutrinária E Política - Mulheres  
+Outras Despesas Com Propaganda Doutrinária E Política - Ordinárias  
+Produção De Audiovisuais - Despesas Eleitorais  
+Produção De Audiovisuais - Mulheres  
+Produção De Audiovisuais - Ordinárias  
+Propaganda E Publicidade - Despesas Eleitorais  
+Propaganda E Publicidade - Mulheres  
+Propaganda E Publicidade - Ordinárias  
+Rádio E Televisão - Despesas Eleitorais  
+Rádio E Televisão - Mulheres  
+Rádio E Televisão - Ordinárias  
+
+Salários
+Pessoal - 13º Salário - Mulheres  
+Pessoal - 13º Salário - Ordinárias  
+Pessoal - 13º Salário  - Despesas Eleitorais  
+Pessoal - Adiantamentos A Empregados - Adiantamentos De 13º Salário  
+Pessoal - Adiantamentos A Empregados - Adiantamentos De Férias  
+Pessoal - Adiantamentos A Empregados - Adiantamentos De Salários  
+Pessoal - Adiantamentos A Empregados - Outros Adiantamentos A Empregados  
+Pessoal - Estagiários - Despesas Eleitorais  
+Pessoal - Estagiários - Ordinárias  
+Pessoal - Férias - Mulheres  
+Pessoal - Férias - Ordinárias  
+Pessoal - Férias  - Despesas Eleitorais  
+Pessoal - Salários E Ordenados - Despesas Eleitorais  
+Pessoal - Salários E Ordenados - Mulheres  
+Pessoal - Salários E Ordenados - Ordinárias  
+
+Segurança
+Segurança E Vigilância - Cessão Mão-de-obra - Despesas Eleitorais  
+Segurança E Vigilância - Cessão Mão-de-obra - Mulheres  
+Segurança E Vigilância - Cessão Mão-de-obra - Ordinárias  
+Segurança E Vigilância - Despesas Eleitorais  
+Segurança E Vigilância - Encargos Sociais Sobre Cessão Mão-de-obra - Despesas Eleitorais  
+Segurança E Vigilância - Encargos Sociais Sobre Cessão Mão-de-obra - Mulheres  
+Segurança E Vigilância - Encargos Sociais Sobre Cessão Mão-de-obra - Ordinárias  
+Segurança E Vigilância - Mulheres  
+Segurança E Vigilância - Ordinárias  
+
+Seguros
+Seguros - Despesas Eleitorais  
+Seguros - Mulheres  
+Seguros - Ordinárias  
+
+Serviços contábeis - eleitoral
+Serviços Técnico-profissionais - Serviços Contábeis - Despesas Eleitorais  
+
+Serviços contábeis - ordinária
+Serviços Técnico-profissionais - Serviços Contábeis - Mulheres  
+Serviços Técnico-profissionais - Serviços Contábeis - Ordinárias  
+
+Serviços e material de limpeza
+Material De Consumo - Materiais De Limpeza - Despesas Eleitorais  
+Material De Consumo - Materiais De Limpeza - Mulheres  
+Material De Consumo - Materiais De Limpeza - Ordinárias  
+Serviços De Limpeza - Cessão Mão-de-obra - Despesas Eleitorais  
+Serviços De Limpeza - Cessão Mão-de-obra - Ordinárias  
+Serviços De Limpeza - Despesas Eleitorais  
+Serviços De Limpeza - Encargos Sociais Sobre Cessão Mão-de-obra - Despesas Eleitorais  
+Serviços De Limpeza - Encargos Sociais Sobre Cessão Mão-de-obra - Mulheres  
+Serviços De Limpeza - Encargos Sociais Sobre Cessão Mão-de-obra - Ordinárias  
+Serviços De Limpeza - Mulheres  
+Serviços De Limpeza - Ordinárias  
+
+Serviços técnico-profissionais
+Serviços Técnico-profissionais - Encargos Sociais - Despesas Eleitorais  
+Serviços Técnico-profissionais - Encargos Sociais - Mulheres  
+Serviços Técnico-profissionais - Encargos Sociais - Ordinárias  
+Serviços Técnico-profissionais - Outros Serviços Técnicos E Profissionais - Despesas Eleitorais  
+Serviços Técnico-profissionais - Outros Serviços Técnicos E Profissionais - Mulheres  
+Serviços Técnico-profissionais - Outros Serviços Técnicos E Profissionais - Ordinárias  
+
+Serviços, materiais e equipamentos de informática
+Ativo Permanente - Bens Móveis - Arrendamento Mercantil - Equipamentos De Informática - Am  
+Ativo Permanente - Bens Móveis - Equipamentos De Informática  
+Ativo Permanente - Sistemas Aplicativos - Arrendamento Mercantil - Sistemas De Informática - Am  
+Ativo Permanente - Sistemas Aplicativos - Sistemas De Informática  
+Material De Consumo - Materiais De Informática - Despesas Eleitorais  
+Material De Consumo - Materiais De Informática - Mulheres  
+Material De Consumo - Materiais De Informática - Ordinárias  
+Serviços Técnico-profissionais - Serviços De Informática - Despesas Eleitorais  
+Serviços Técnico-profissionais - Serviços De Informática - Mulheres  
+Serviços Técnico-profissionais - Serviços De Informática - Ordinárias  
+
+Tarifas bancárias
+Despesas Financeiras - Comissões E Tarifas Bancárias  
+
+Táxi
+Transportes E Viagens - Serviços De Táxi - Despesas Eleitorais  
+Transportes E Viagens - Serviços De Táxi - Mulheres  
+Transportes E Viagens - Serviços De Táxi - Ordinárias  
+
+Transportes e Viagens
+Transportes E Viagens - Adiantamentos Diversos - Adiantamentos Para Viagens  
+Transportes E Viagens - Fretes E Carretos - Despesas Eleitorais  
+Transportes E Viagens - Fretes E Carretos - Mulheres  
+Transportes E Viagens - Fretes E Carretos - Ordinárias  
+Transportes E Viagens - Outras Despesas Com Transportes E Viagens - Despesas Eleitorais  
+Transportes E Viagens - Outras Despesas Com Transportes E Viagens - Mulheres  
+Transportes E Viagens - Outras Despesas Com Transportes E Viagens - Ordinárias  
+Transportes E Viagens - Transporte Rodoviário - Despesas Eleitorais  
+Transportes E Viagens - Transporte Rodoviário - Mulheres  
+Transportes E Viagens - Transporte Rodoviário - Ordinárias  
+
+Vale-refeição
+Pessoal - Alimentação Do Trabalhador - Despesas Eleitorais  
+Pessoal - Alimentação Do Trabalhador - Mulheres  
+Pessoal - Alimentação Do Trabalhador - Ordinárias  
+
+Vale-transporte
+Pessoal - Auxílio-transporte - Despesas Eleitorais  
+Pessoal - Auxílio-transporte - Mulheres  
+Pessoal - Auxílio-transporte - Ordinárias  
+
+Veículos
+Ativo Permanente - Bens Móveis - Arrendamento Mercantil - Veículos - Am  
+Ativo Permanente - Bens Móveis - Veículos  
+
+Outras despesas
+Adiantamentos Diversos - Adiantamentos A Fornecedores  
+Adiantamentos Diversos - Outros Adiantamentos Diversos  
+Alistamento - Mulheres  
+Alistamento - Ordinárias  
+Assinaturas E Aquisições De Periódicos - Despesas Eleitorais  
+Assinaturas E Aquisições De Periódicos - Mulheres  
+Assinaturas E Aquisições De Periódicos - Ordinárias  
+Ativo Permanente - Bens Incorpóreos - Direito De Uso  
+Ativo Permanente - Bens Incorpóreos - Marcas E Patentes  
+Ativo Permanente - Investimentos Diversos - Investimentos Diversos  
+Despesas Com Alistamento - Eleitorais  
+Despesas Com Reembolso De Gastos Realizados Por Eleitores - Eleitorais  
+Obrigações Diversas - Outras Obrigações A Pagar  
+Outras Despesas De Campanha Eleitoral - Despesas Eleitorais  
+Outras Despesas Gerais - Despesas Eleitorais  
+Outras Despesas Gerais - Mulheres  
+Outras Despesas Gerais - Ordinárias  
+Outras Despesas Para Participação Da Mulher Na Política - Mulheres  
+Outros Despesas Eleitorais  
+Outros Mulheres  
+Outros Ordinárias  
+Perdas Com Ativos - Sinistros, Roubos E Outras Perdas  
+
+Outros tributos e taxas
+Tributos - Outros Tributos - Despesas Eleitorais  
+Tributos - Outros Tributos - Ordinárias  
+Tributos - Taxas - Despesas Eleitorais  
+Tributos - Taxas - Ordinárias 
+
